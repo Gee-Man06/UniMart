@@ -37,3 +37,8 @@ backend/src/{config,controllers,middleware,routes,services}
 4. Create database: `createdb unimart`
 5. Update `.env` with connection string.
 
+6. ## 🎨 Design (Figma)
+The UI/UX mockups for UniMart are available on Figma:  
+[View Figma Designs](https://www.figma.com/file/your-link-here)
+
+
