@@ -13,9 +13,9 @@ backend/src/{config,controllers,middleware,routes,services}
    - Frontend: `cd frontend && npm install`
    - Backend: `cd backend && npm install`
 3. Create `.env` in backend:
-   DATABASE_URL="postgresql://<username>:<password>@localhost:5432/unimart"
-  JWT_SECRET="your-secret-key"
-  PORT=5000
+   - DATABASE_URL="postgresql://<username>:<password>@localhost:5432/unimart"
+     JWT_SECRET="your-secret-key"
+     PORT=5000
  4. Setup database:
     npx prisma migrate dev
     npx prisma generate
