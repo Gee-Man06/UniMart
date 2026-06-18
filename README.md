@@ -39,6 +39,6 @@ backend/src/{config,controllers,middleware,routes,services}
 
 6. ## 🎨 Design (Figma)
 The UI/UX mockups for UniMart are available on Figma:  
-[View Figma Designs](https://www.figma.com/file/your-link-here)
+[View Figma Designs](https://www.figma.com/design/OO8KmyCYvbjaT0vs3vuEFq/UniMart?node-id=0-1&p=f&t=FTgDwnbjn9ODSdOx-0)
 
 
