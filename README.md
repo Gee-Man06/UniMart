@@ -5,6 +5,7 @@ UniMart is a full‑stack web application built with Node.js, Express.js, Prisma
 
 ## 🗂 Directory Structure
 frontend/src/{assets,components,context,hooks,pages,utils}
+
 backend/src/{config,controllers,middleware,routes,services}
 
 ## 🚀 Getting Started
@@ -40,5 +41,10 @@ backend/src/{config,controllers,middleware,routes,services}
 6. ## 🎨 Design (Figma)
 The UI/UX mockups for UniMart are available on Figma:  
 [View Figma Designs](https://www.figma.com/design/OO8KmyCYvbjaT0vs3vuEFq/UniMart?node-id=0-1&p=f&t=FTgDwnbjn9ODSdOx-0)
+
+7. 6. ## 🎨 Documentation
+The project docomentation for deliverable 2:  
+[View Google Doc](https://docs.google.com/document/d/1O2UHp_bzVMiWzswHky8317MAvCLC851nY7X6fa16rvo/edit?tab=t.0)
+
 
 
