@@ -8,7 +8,7 @@ frontend/src/{assets,components,context,hooks,pages,utils}
 backend/src/{config,controllers,middleware,routes,services}
 
 ## 🚀 Getting Started
-1. Clone the repo: `git clone <(https://github.com/Gee-Man06/UniMart)>`
+1. Clone the repo: `git clone https://github.com/Gee-Man06/UniMart`
 2. Install dependencies:
    - Frontend: `cd frontend && npm install`
    - Backend: `cd backend && npm install`
