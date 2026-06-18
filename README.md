@@ -8,7 +8,7 @@ frontend/src/{assets,components,context,hooks,pages,utils}
 backend/src/{config,controllers,middleware,routes,services}
 
 ## 🚀 Getting Started
-1. Clone the repo: `git clone <repo-url>`
+1. Clone the repo: `git clone <(https://github.com/Gee-Man06/UniMart)>`
 2. Install dependencies:
    - Frontend: `cd frontend && npm install`
    - Backend: `cd backend && npm install`
@@ -23,12 +23,6 @@ backend/src/{config,controllers,middleware,routes,services}
 - Frontend: `npm run dev`
 - Backend: `npm run dev`
 
-## 📖 Collaboration Notes
-- Don’t commit `node_modules` or `generated/`.
-- Commit `package.json`, `package-lock.json`, and `prisma/schema.prisma`.
-- Use `.gitkeep` for empty folders.
-- Run `npm install` after pulling changes.
-
 ## 🛠 Common Commands
 - Install dependency: `npm install <package>`
 - Run backend dev: `npm run dev`
@@ -42,11 +36,4 @@ backend/src/{config,controllers,middleware,routes,services}
 3. Add PostgreSQL to PATH.
 4. Create database: `createdb unimart`
 5. Update `.env` with connection string.
-
-## 👥 Next Steps
-- Implement React Router in `frontend/src/pages`.
-- Build authentication hooks in `frontend/src/hooks`.
-- Add API routes in `backend/src/routes`.
-- Write controllers and services for business logic.
-
 
