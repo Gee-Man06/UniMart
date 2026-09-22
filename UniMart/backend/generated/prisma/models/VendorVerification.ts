@@ -8,7 +8,7 @@
  *
  * 🟢 You can import this file directly.
  */
-import type * as runtime from "@prisma/client/runtime/library"
+import type * as runtime from "@prisma/client/runtime/client"
 import type * as $Enums from "../enums.ts"
 import type * as Prisma from "../internal/prismaNamespace.ts"
 
@@ -189,7 +189,7 @@ export type VendorVerificationGroupByOutputType = {
   _max: VendorVerificationMaxAggregateOutputType | null
 }
 
-type GetVendorVerificationGroupByPayload<T extends VendorVerificationGroupByArgs> = Prisma.PrismaPromise<
+export type GetVendorVerificationGroupByPayload<T extends VendorVerificationGroupByArgs> = Prisma.PrismaPromise<
   Array<
     Prisma.PickEnumerable<VendorVerificationGroupByOutputType, T['by']> &
       {
@@ -1085,6 +1085,11 @@ export type VendorVerificationFindManyArgs<ExtArgs extends runtime.Types.Extensi
    * Skip the first `n` VendorVerifications.
    */
   skip?: number
+  /**
+   * {@link https://www.prisma.io/docs/concepts/components/prisma-client/distinct Distinct Docs}
+   * 
+   * Filter by unique combinations of VendorVerifications.
+   */
   distinct?: Prisma.VendorVerificationScalarFieldEnum | Prisma.VendorVerificationScalarFieldEnum[]
 }
 
